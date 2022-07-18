@@ -3,11 +3,10 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./style.css" />
     <title>Gassan's Portfolio</title>
-    <link ref="stylesheet" href="./style.css" />
-    <link ref="stylesheet" href="./reset.css" />
 </head>
 
 <body>
@@ -16,65 +15,105 @@
         <nav>
             <ul>
                 <li>
-                    <a href="about-me">About Me</a>
+                    <a href="#about-me">About Me</a>
                 </li>    
                 <li>
-                    <a href="work">Work</a>
+                    <a href="#work">Work</a>
                 </li>    
                 <li>
-                    <a href="contact-me">Contact Me</a>
+                    <a href="#contact-me">Contact Me</a>
                 </li>
                 <li>
-                    <a href="resume">Resume</a>
+                    <a href="#">Resume</a>
                 </li>    
             </ul>
         </nav>
     </header>
+
     <div class="img-head">
-        <p>Welcome To My Portfolio!</p>
+        <h1 class="subtitle">Welcome To My Portfolio!</h1>
     </div>
 
     <main>
-        <section id="about-me" class="section1">
-            <h1>About Me</h1>
+        <h1>About Me</h1>
+        <section id="about-me">
+
+            <div>
             <p>
-                My name is Gassan Bundakji and this is my portfolio wwebpage! 
+                My name is Gassan Bundakji and this is my portfolio! 
                 I am currently enrolled in UCI's fullstack coding bootcamp to
-                shift my career path to the computer science field. I have been 
-                working in the real estate field for quite some time now with
+                shift my career path to the computer science field. 
+            </p>
+        <br>
+            <p>    
+                I have been working in the real estate field for quite some time now with
                 Berkshire Hathaway Homeservices Califronia Properties in 
                 Newport Beach, CA. I recieved my BA in Business Administration
                 with a concentration in finance in 2019. I am looking froward 
                 to graduating from this program and pursuing a career as a 
                 software engineer or software developer.
             </p>
+
+            </div>
+
         </section>
-        <section id="work" class="section2">
-            <h1>Work</h1>
-            <p>
-                <h2 href="#">Real Estate</h2>
-                    <h3>Real Estate Broker</h3>
-                <h2 href="#">Property Management</h2>
-                    <h3>Property Manager</h3>
-                <h2 href="#">University</h2>
-                    <h3>California State University Fullerton</h3>
-                <h2 href="#">3D Printing</h2>
-                    <h3>Projects</h3>
-                <h2 href="#">Coding</h2>
-                    <h3>HTML,CSS,JS</h3>
-            </p>
+
+        <h1>Work</h1>
+        <section id="work">
+        
+        <div class="row">
+
+        <section class="card">
+            <h2 href="#">Surf Report</h2>
+            <img src="https://picjumbo.com/wp-content/uploads/black-beach-shoreline-on-iceland-2210x1473.jpg" alt="Black Beach">
+            <p>MERN Stack</p>
         </section>
+        </div>
+
+        <div class="row">
+        <section class="card">
+            <h2 href="#">LED Wall</h2>
+            <img src="https://assets.website-files.com/5e44292e19d713ceaf2e7625/5e44292e19d713397a2e7725_featured-led-lcd-video-wall.jpg" alt="LED Wall" > 
+            <p>Node/loT</p>
+        </section>
+        </div>
+
+        <div class="row">
+        <section class="card">
+            <h2 href="#">Pastel Puzzels</h2>
+            <img src="https://cdn.ravensburger.de/images/produktseiten/1024/15260_1.jpg" alt="Black Puzzle">
+            <p>MERN Stack</p>
+        </section>
+        </div>
+
+        <div class="row">
+        <section class="card">
+            <h2 href="#">Calculator</h2>
+            <img src="https://wallpaperbat.com/img/477068-led-keyboard-wallpaper.jpg" alt="Keyboard">
+            <p>React/JavaScript/CSS</p>
+        </section>
+        </div>
+
+        <div class="row">
+        <section class="card">
+            <h2 href="#">Lift Buddy</h2>
+            <img src="https://connectthewatts.com/wp-content/uploads/sites/11/2021/03/silofit-1-scaled-1.jpg?w=1024" alt="Black Gym">
+            <p>HTML/CSS</p>
+        </section>
+        </div>
+        </section>
+
     </main>
 
     <footer>
-        <h1>Contact Me</h1>
-            <nav class="socials">
-                <h3 href="#">714.555.5555</h3>
-                <h3 href="#">gassan@website.com</h3>
-                <h3 href="#">GitHub</h3>
-                <h3 href="#">LinkedIn</h3>
-                <h3 href="#">Instagram</h3>
-            </nav>
+        <h3>Contact Me</h3>
+            <div class="socials">
+                <a href="https://github.com/gbundakji?tab=repositories/">714.555.5555</a>
+                <a href="https://github.com/gbundakji?tab=repositories/">gassan@website.com</a>
+                <a href="https://github.com/gbundakji?tab=repositories/">GitHub</a>
+                <a href="https://github.com/gbundakji?tab=repositories/">LinkedIn</a>
+                <a href="https://github.com/gbundakji?tab=repositories/">Instagram</a>
+            </div>
     </footer>
 
 </body>

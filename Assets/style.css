@@ -1,0 +1,190 @@
+/* General styling */
+
+* {
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: gray;
+    margin: 0;
+}
+
+/* Header */
+
+header {
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: black;
+    width: 100%;
+    color: silver;
+}
+
+header h1 {
+    display: inline-flex;
+    font-size: 50px;
+}
+
+header nav {
+    padding-top: 15px;
+    margin-right: 40px;
+    float: right;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+nav ul li a:hover {
+    background-color: var(--white);
+    color: var(--black);
+  }
+
+/* Text styling */
+
+a {
+    font-size: 28px;
+    color: whitesmoke;
+    text-decoration: underline;
+}
+
+p {
+    font-size: 20px;
+    color: black;
+}
+
+/* Head background image and subtitle */
+
+img{
+    width: 100%;
+    height: 200px;
+}
+
+.img-head {
+    margin: 0;
+    width: 100%;
+    height: 200px;
+    background-image: url(https://img.freepik.com/free-photo/old-black-background-grunge-texture-dark-wallpaper-blackboard-chalkboard-room-wall_1258-28312.jpg);
+    margin-right: 20px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+    padding-bottom: 10px;
+    padding-right: 20px;
+}
+
+.subtitle {
+    text-align: center;
+    float: right;
+    margin-left: 30px;
+    color: silver;
+}   
+
+/* Main */
+
+main {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2%;
+}
+
+/* Sections */
+
+img {
+    height: 300px;
+    width: 500px;
+    overflow: hidden;
+    display: block;
+}
+
+#about-me {
+    width: 100%;
+    display: flex;
+    text-align: left;
+    padding-left: 20px;
+}
+
+#about-me h1 {
+    width: 10%;
+    border-right: 5px solid black;
+}
+
+#about-me div {
+    padding: 1em;
+}
+
+.row {
+    border: 5px solid whitesmoke;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+#work {
+    width: 100%;
+    display: flex;
+    padding-left: 20px;
+}
+
+#work h1 {
+    width: 10%;
+    border-right: 5px solid black;
+}
+
+.card h2 {
+    padding: 20px;
+    background: black;
+    color: whitesmoke;
+  }
+  
+/* Footer */
+
+.socials {
+    text-align: center;
+    align-content: space-between;
+    word-spacing: 50px;
+    width: 100%;
+}
+
+footer {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    background: black;
+    width: 100%;
+    color: whitesmoke;
+    position: static;
+    padding-bottom: 20px;
+}
+
+footer h3 {
+    font-size: 30px;
+    padding: 30px;
+    text-decoration: none;
+    text-align: center;
+}
+
+/* Responsive design */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {main,nav {flex-direction: column;}}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {main,nav {flex-direction: column;}}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
